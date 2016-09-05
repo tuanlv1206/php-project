@@ -1,0 +1,218 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+/* Start common */
+body {
+  background: #e7ebf2;
+  overflow-x: hidden;
+  padding-top: 58px;
+  font-family: 'Tahoma', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+}
+#loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+.required {
+  color: #f00;
+}
+table {
+  table-layout: fixed;
+  overflow: break-word;
+}
+/* End common */
+
+/* Start footer */
+#footer {
+  background: #E6E6E6;
+  color: #585858;
+  padding: 5px 0 0.5px;
+  .company-intro {
+    text-align: center;
+  }
+  hr {
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 0.05px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  h3 {
+    color: #fff;
+    font-family: 'Archer-Bold', serif;
+  }
+  .company-branch {
+    text-align: center;
+    //border-left: 1px #fff solid;
+    .fa {
+      margin-right: 5px;
+    }
+  }
+  .Jg{
+    margin-top: 5px !important;
+  }
+  a, li {
+  color: #585858;
+  font-weight: bold;
+  }
+  span {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+/* End footer */
+
+/* Start top navbar */
+.navbar-principal {
+  background-color: #fff;
+}
+.navbar-btn {
+  margin-left: 5px;
+}
+.navbar-toggle {
+  background-color: #fff;
+}
+#navbar {
+  .dropdown {
+    background-color: #fff;
+    a:hover {
+      background-color: #EBEBEB;
+    }
+    .dropdown-toggle {
+      color: #055699;
+    }
+  }
+  .dropdown-menu {
+    a:hover {
+      background-color: #055699;
+      color: #fff;
+    }
+  }
+}
+.navbar-default {
+  .navbar-brand {
+    padding: 0;
+    margin: 0;
+  }
+}
+/* End top navbar
+
+/* Start navbar-form */
+@media screen and (max-width:767px) {
+  .navbar .navbar-form {
+    width: 200px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (min-width:768px) {
+  .navbar .navbar-form {
+    width: 250px;
+  }
+}
+.navbar .navbar-form {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* End navbar-form */
+
+/* Start back to top button */
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media screen and (min-width:768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+/* End back to top button */
+
+/* Start info panel */
+.info-panel {
+  padding: 0;
+  .panel-heading {
+    background-color: #055699;
+    padding: 1px 5px;
+  }
+  h4 {
+    color: #fff;
+    font-size: 16px;
+  }
+  a {
+    color: #055699;
+  }
+  li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  .info-title {
+    h3 {
+      font-family: 'Roboto Condensed';
+      text-transform: uppercase;
+      color: #055699;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    i {
+      color: #00A80C;
+    }
+  }
+}
+/* End info panel */

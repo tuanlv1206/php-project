@@ -1,0 +1,186 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+/* Start panel link right */
+.links {
+  padding: 0;
+  .panel-heading {
+    background-color: #055699;
+    padding: 1px 5px;
+  }
+  h4 {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+  }
+  a {
+    color: #055699;
+  }
+  li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+}
+/* End panel link right */
+
+/* Start result panel */
+@media screen and (max-width:767px) {
+  .result-panel {
+    padding: 0 5px;
+  }
+}
+@media screen and (min-width:768px) {
+  .result-panel {
+    padding: 0 10px 0 0;
+  }
+}
+.result-panel {
+  .panel-heading {
+    background-color: #fff;
+  }
+  h1 {
+    color: #055699;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+  }
+  .result-count {
+    color: #00A80C;
+    font-weight: bold;
+  }
+  .criteria-info {
+    color: #00A80C;
+    font-weight: bold;
+  }
+  .list-post {
+    color: #00A80C;
+    padding-top: 15px;
+  }
+  .sort {
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+  }
+  .count {
+    margin-bottom: 2px;
+  }
+  .pagination {
+    margin: 0;
+  }
+  .panel-body {
+    padding: 5px 5px;
+  }
+  .list-item {
+    border-bottom: 1px solid #00A80C;
+    padding: 5px;
+  }
+  .houses-list {
+    border-top: 1px solid #00A80C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00A80C;
+  }
+  .description {
+    margin-bottom: 5px;
+  }
+  .updated-date {
+    font-size: 12px;
+    font-weight: bold;
+    color: #055699;
+  }
+  .price-label {
+    color: #055699;
+    font-weight: bold;
+  }
+  .price {
+    color: #f00;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 13px;
+    margin: 2px;
+    line-height: 150%;
+    a {
+      color: #00A80C;
+      font-weight: bold;
+    }
+  }
+  .h2-info {
+    color: #00A80C;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  #sort {
+    width: 150px;
+    display: inline;
+  }
+  .img-responsive {
+    width: 100%;
+  }
+  .text-highlight {
+    background-color: yellow;
+  }
+  @media screen and (max-width:1023px) {
+    #sort {
+      margin-bottom: 5px;
+    }
+  }
+  .info {
+    font-weight: bold;
+  }
+}
+/* End result panel */
+
+/* Start panel search */
+.panel-search {
+  border-radius: 20px 20px 0 0;
+  margin-left: 0;
+  margin-right: 0;
+  .panel-heading {
+    background-color: #055699;
+    border-radius: 20px 20px 0 0;
+    padding: 1px 2px;
+  }
+  .row {
+  margin-bottom: 10px;
+  }
+  .btn-link {
+    color: #055699;
+    font-weight: bold;
+  }
+  h4 {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  #remove-advanced-search {
+    display: none;
+  }
+  .advanced-field {
+    display: none;
+  }
+}
+/* End panel search */
+
+/* Start right panel */
+@media screen and (max-width:767px) {
+  .right-panel {
+    padding: 0 5px;
+  }
+}
+@media screen and (min-width:768px) {
+  .right-panel {
+    padding: 0;
+  }
+}
+
+/* End right panel */

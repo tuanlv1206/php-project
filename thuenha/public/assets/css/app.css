@@ -1,0 +1,482 @@
+/* Start common */
+body {
+  background: #e7ebf2;
+  overflow-x: hidden;
+  padding-top: 58px;
+  font-family: 'Tahoma', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px; }
+
+#loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff; }
+
+.required {
+  color: #f00; }
+
+table {
+  table-layout: fixed;
+  overflow: break-word; }
+
+/* End common */
+/* Start footer */
+#footer {
+  background: #E6E6E6;
+  color: #585858;
+  padding: 5px 0 0.5px; }
+  #footer .company-intro {
+    text-align: center; }
+  #footer hr {
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 0.05px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px; }
+  #footer h3 {
+    color: #fff;
+    font-family: 'Archer-Bold', serif; }
+  #footer .company-branch {
+    text-align: center; }
+    #footer .company-branch .fa {
+      margin-right: 5px; }
+  #footer .Jg {
+    margin-top: 5px !important; }
+  #footer a, #footer li {
+    color: #585858;
+    font-weight: bold; }
+  #footer span {
+    margin-left: 5px;
+    margin-right: 5px; }
+
+/* End footer */
+/* Start top navbar */
+.navbar-principal {
+  background-color: #fff; }
+
+.navbar-btn {
+  margin-left: 5px; }
+
+.navbar-toggle {
+  background-color: #fff; }
+
+#navbar .dropdown {
+  background-color: #fff; }
+  #navbar .dropdown a:hover {
+    background-color: #EBEBEB; }
+  #navbar .dropdown .dropdown-toggle {
+    color: #055699; }
+
+#navbar .dropdown-menu a:hover {
+  background-color: #055699;
+  color: #fff; }
+
+.navbar-default .navbar-brand {
+  padding: 0;
+  margin: 0; }
+
+/* End top navbar
+
+/* Start navbar-form */
+@media screen and (max-width: 767px) {
+  .navbar .navbar-form {
+    width: 200px;
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media screen and (min-width: 768px) {
+  .navbar .navbar-form {
+    width: 250px; } }
+
+.navbar .navbar-form {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  border: 0;
+  box-shadow: none; }
+
+/* End navbar-form */
+/* Start back to top button */
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s 0s, visibility 0s .3s; }
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  transition: opacity .3s 0s, visibility 0s 0s; }
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1; }
+
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5; }
+
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1; }
+
+@media screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px; } }
+
+@media screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px; } }
+
+/* End back to top button */
+/* Start info panel */
+.info-panel {
+  padding: 0; }
+  .info-panel .panel-heading {
+    background-color: #055699;
+    padding: 1px 5px; }
+  .info-panel h4 {
+    color: #fff;
+    font-size: 16px; }
+  .info-panel a {
+    color: #055699; }
+  .info-panel li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; }
+  .info-panel .info-title h3 {
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    color: #055699;
+    font-size: 16px;
+    font-weight: bold; }
+  .info-panel .info-title i {
+    color: #00A80C; }
+
+/* End info panel */
+
+/* Start panel link right */
+.links {
+  padding: 0; }
+  .links .panel-heading {
+    background-color: #055699;
+    padding: 1px 5px; }
+  .links h4 {
+    color: #fff;
+    font-size: 16px;
+    text-align: center; }
+  .links a {
+    color: #055699; }
+  .links li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; }
+
+/* End panel link right */
+/* Start result panel */
+@media screen and (max-width: 767px) {
+  .result-panel {
+    padding: 0 5px; } }
+
+@media screen and (min-width: 768px) {
+  .result-panel {
+    padding: 0 10px 0 0; } }
+
+.result-panel .panel-heading {
+  background-color: #fff; }
+
+.result-panel h1 {
+  color: #055699;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  display: inline; }
+
+.result-panel .result-count {
+  color: #00A80C;
+  font-weight: bold; }
+
+.result-panel .criteria-info {
+  color: #00A80C;
+  font-weight: bold; }
+
+.result-panel .list-post {
+  color: #00A80C;
+  padding-top: 15px; }
+
+.result-panel .sort {
+  border-top: 1px solid #ccc;
+  padding-top: 5px; }
+
+.result-panel .count {
+  margin-bottom: 2px; }
+
+.result-panel .pagination {
+  margin: 0; }
+
+.result-panel .panel-body {
+  padding: 5px 5px; }
+
+.result-panel .list-item {
+  border-bottom: 1px solid #00A80C;
+  padding: 5px; }
+
+.result-panel .houses-list {
+  border-top: 1px solid #00A80C;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.result-panel .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00A80C; }
+
+.result-panel .description {
+  margin-bottom: 5px; }
+
+.result-panel .updated-date {
+  font-size: 12px;
+  font-weight: bold;
+  color: #055699; }
+
+.result-panel .price-label {
+  color: #055699;
+  font-weight: bold; }
+
+.result-panel .price {
+  color: #f00;
+  font-weight: bold; }
+
+.result-panel h2 {
+  font-size: 13px;
+  margin: 2px;
+  line-height: 150%; }
+  .result-panel h2 a {
+    color: #00A80C;
+    font-weight: bold; }
+
+.result-panel .h2-info {
+  color: #00A80C;
+  font-size: 13px;
+  font-weight: bold; }
+
+.result-panel h3 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px; }
+
+.result-panel #sort {
+  width: 150px;
+  display: inline; }
+
+.result-panel .img-responsive {
+  width: 100%; }
+
+.result-panel .text-highlight {
+  background-color: yellow; }
+
+@media screen and (max-width: 1023px) {
+  .result-panel #sort {
+    margin-bottom: 5px; } }
+
+.result-panel .info {
+  font-weight: bold; }
+
+/* End result panel */
+/* Start panel search */
+.panel-search {
+  border-radius: 20px 20px 0 0;
+  margin-left: 0;
+  margin-right: 0; }
+  .panel-search .panel-heading {
+    background-color: #055699;
+    border-radius: 20px 20px 0 0;
+    padding: 1px 2px; }
+  .panel-search .row {
+    margin-bottom: 10px; }
+  .panel-search .btn-link {
+    color: #055699;
+    font-weight: bold; }
+  .panel-search h4 {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center; }
+  .panel-search #remove-advanced-search {
+    display: none; }
+  .panel-search .advanced-field {
+    display: none; }
+
+/* End panel search */
+/* Start right panel */
+@media screen and (max-width: 767px) {
+  .right-panel {
+    padding: 0 5px; } }
+
+@media screen and (min-width: 768px) {
+  .right-panel {
+    padding: 0; } }
+
+/* End right panel */
+
+.house .create-title h1, .house .create-title h3 {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  color: #055699;
+  font-size: 18px;
+  font-weight: bold; }
+
+.house .create-title i {
+  color: #00A80C; }
+
+.house .create-title h3 {
+  font-size: 16px; }
+
+.house h2 {
+  color: #00A80C;
+  font-size: 14px;
+  margin-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold; }
+
+.house .other-info, .house .detail-info, .house .owner-info {
+  margin-top: 20px; }
+
+.house label {
+  font-weight: normal;
+  padding-top: 5px; }
+
+.house #title-suggestion-container a {
+  color: #f00;
+  font-weight: bold; }
+
+.house #title-suggestion-container a:hover {
+  text-decoration: none; }
+
+.house #title-suggestion-container .btn-link {
+  padding-left: 0; }
+
+.house #form-create .row, .house #form-update .row {
+  margin-bottom: 10px; }
+
+.house .status label {
+  margin-right: 20px; }
+
+.house .house-id label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00A80C; }
+
+@media screen and (max-width: 767px) {
+  .house .create-title h1, .house .create-title h3 {
+    font-size: 16px; }
+  .house .street, .house .toilets, .house .facade, .house .frontline {
+    margin-top: 10px; } }
+
+.house .btn-post {
+  margin-top: 30px; }
+
+.house .btn-cancel {
+  margin-left: 30px; }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .house .left-panel {
+    padding-right: 5px;
+    padding-left: 0; }
+  .house .right-panel {
+    padding-left: 0;
+    padding-right: 0; }
+  .house .create-title h3 {
+    font-size: 14px;
+    padding-top: 4px; } }
+
+.carousel-inner img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 500px;
+  width: auto; }
+
+.carousel-inner .item {
+  height: 500px; }
+
+@media screen and (max-width: 767px) {
+  .carousel-inner img {
+    max-height: 200px; }
+  .carousel-inner .item {
+    height: 200px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel-inner img {
+    max-height: 300px; }
+  .carousel-inner .item {
+    height: 300px; } }
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none; }
+
+#show-panel h1 {
+  font-family: 'Roboto Condensed';
+  color: #055699;
+  font-size: 18px;
+  font-weight: bold; }
+
+#show-panel h2 {
+  color: #000;
+  font-size: 14px;
+  margin-top: 0;
+  padding-bottom: 5px; }
+
+#show-panel .panel-body {
+  padding-top: 0; }
+
+#show-panel .house-info {
+  color: #00A80C;
+  font-weight: bold; }
+
+#show-panel i {
+  color: #00A80C; }
+
+#show-panel label {
+  font-weight: normal; }
+
+#show-panel hr {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+#show-panel .house-description {
+  font-weight: bold;
+  font-size: 14px;
+  color: #00A80C;
+  margin-bottom: 5px; }
+
+#show-panel table {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=app.css.map */

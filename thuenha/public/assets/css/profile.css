@@ -1,0 +1,87 @@
+.profile .info-panel {
+  padding: 0; }
+  .profile .info-panel .panel-heading {
+    background-color: #055699;
+    padding: 1px 5px; }
+  .profile .info-panel h4 {
+    color: #fff;
+    font-size: 16px; }
+  .profile .info-panel a {
+    color: #055699; }
+  .profile .info-panel li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; }
+
+.profile .create-title h1, .profile .create-title h3 {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  color: #055699;
+  font-size: 18px;
+  font-weight: bold; }
+
+.profile .create-title i {
+  color: #00A80C; }
+
+.profile .create-title h3 {
+  font-size: 16px; }
+
+.profile h2 {
+  color: #00A80C;
+  font-size: 14px;
+  margin-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold; }
+
+.profile .other-info, .profile .detail-info, .profile .owner-info {
+  margin-top: 20px; }
+
+.profile label {
+  font-weight: normal;
+  padding-top: 5px; }
+
+.profile #title-suggestion-container a {
+  color: #f00;
+  font-weight: bold; }
+
+.profile #title-suggestion-container a:hover {
+  text-decoration: none; }
+
+.profile #title-suggestion-container .btn-link {
+  padding-left: 0; }
+
+.profile #form-create .row, .profile #form-update .row {
+  margin-bottom: 10px; }
+
+.profile .status label {
+  margin-right: 20px; }
+
+.profile .house-id label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00A80C; }
+
+@media screen and (max-width: 767px) {
+  .profile .create-title h1, .profile .create-title h3 {
+    font-size: 16px; }
+  .profile .street, .profile .toilets, .profile .facade, .profile .frontline {
+    margin-top: 10px; } }
+
+.profile .btn-post {
+  margin-top: 30px; }
+
+.profile .btn-cancel {
+  margin-left: 30px; }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .profile .left-panel {
+    padding-right: 5px;
+    padding-left: 0; }
+  .profile .right-panel {
+    padding-left: 0;
+    padding-right: 0; }
+  .profile .create-title h3 {
+    font-size: 14px;
+    padding-top: 4px; } }
+
+/*# sourceMappingURL=profile.css.map */

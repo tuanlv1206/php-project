@@ -1,0 +1,166 @@
+.unapprovedhouses .info-panel {
+  padding: 0; }
+  .unapprovedhouses .info-panel .panel-heading {
+    background-color: #055699;
+    padding: 1px 5px; }
+  .unapprovedhouses .info-panel h4 {
+    color: #fff;
+    font-size: 16px; }
+  .unapprovedhouses .info-panel a {
+    color: #055699; }
+  .unapprovedhouses .info-panel li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; }
+
+.unapprovedhouses .create-title h1, .unapprovedhouses .create-title h3 {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+  color: #055699;
+  font-size: 18px;
+  font-weight: bold; }
+
+.unapprovedhouses .create-title i {
+  color: #00A80C; }
+
+.unapprovedhouses .create-title h3 {
+  font-size: 16px; }
+
+.unapprovedhouses h2 {
+  color: #00A80C;
+  font-size: 14px;
+  margin-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold; }
+
+.unapprovedhouses .other-info, .unapprovedhouses .detail-info, .unapprovedhouses .owner-info {
+  margin-top: 20px; }
+
+.unapprovedhouses label {
+  font-weight: normal;
+  padding-top: 5px; }
+
+.unapprovedhouses #title-suggestion-container a {
+  color: #f00;
+  font-weight: bold; }
+
+.unapprovedhouses #title-suggestion-container a:hover {
+  text-decoration: none; }
+
+.unapprovedhouses #title-suggestion-container .btn-link {
+  padding-left: 0; }
+
+.unapprovedhouses #form-create .row, .unapprovedhouses #form-update .row {
+  margin-bottom: 10px; }
+
+.unapprovedhouses .status label {
+  margin-right: 20px; }
+
+.unapprovedhouses .house-id label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00A80C; }
+
+@media screen and (max-width: 767px) {
+  .unapprovedhouses .create-title h1, .unapprovedhouses .create-title h3 {
+    font-size: 16px; }
+  .unapprovedhouses .street, .unapprovedhouses .toilets, .unapprovedhouses .facade, .unapprovedhouses .frontline {
+    margin-top: 10px; } }
+
+.unapprovedhouses .btn-post {
+  margin-top: 30px; }
+
+.unapprovedhouses .btn-cancel {
+  margin-left: 30px; }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .unapprovedhouses .left-panel {
+    padding-right: 5px;
+    padding-left: 0; }
+  .unapprovedhouses .right-panel {
+    padding-left: 0;
+    padding-right: 0; }
+  .unapprovedhouses .create-title h3 {
+    font-size: 14px;
+    padding-top: 4px; } }
+
+/* Start result panel */
+@media screen and (max-width: 767px) {
+  .result-panel {
+    padding: 0 5px; } }
+
+@media screen and (min-width: 768px) {
+  .result-panel {
+    padding: 0 10px 0 0; } }
+
+.result-panel .panel-heading {
+  background-color: #fff; }
+
+.result-panel h1 {
+  color: #055699;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  display: inline; }
+
+.result-panel .result-count {
+  color: #00A80C;
+  font-size: 22px;
+  font-weight: bold; }
+
+.result-panel .pagination {
+  margin: 0; }
+
+.result-panel .panel-body {
+  padding: 5px 5px; }
+
+.result-panel .list-item {
+  border-bottom: 1px solid #00A80C;
+  padding: 5px 0; }
+
+.result-panel .houses-list {
+  border-top: 1px solid #00A80C;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.result-panel .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00A80C; }
+
+.result-panel .price-label {
+  color: #055699;
+  font-weight: bold; }
+
+.result-panel .price {
+  color: #f00;
+  font-weight: bold; }
+
+.result-panel h2 {
+  font-size: 14px;
+  margin: 2px; }
+
+.result-panel .h2-info {
+  color: #00A80C;
+  font-size: 13px;
+  font-weight: bold; }
+
+.result-panel h3 {
+  font-size: 14px; }
+
+.result-panel #sort {
+  width: 150px; }
+
+.result-panel .img-responsive {
+  width: 100%; }
+
+@media screen and (max-width: 1023px) {
+  .result-panel #sort {
+    margin-bottom: 5px; } }
+
+.result-panel .info {
+  font-weight: bold; }
+
+/* End result panel */
+
+/*# sourceMappingURL=unapprovedhouses.css.map */

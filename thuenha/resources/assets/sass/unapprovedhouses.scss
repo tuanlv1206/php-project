@@ -1,0 +1,195 @@
+.unapprovedhouses {
+  .info-panel {
+    padding: 0;
+    .panel-heading {
+      background-color: #055699;
+      padding: 1px 5px;
+    }
+    h4 {
+      color: #fff;
+      font-size: 16px;
+    }
+    a {
+      color: #055699;
+    }
+    li {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+  }
+  .create-title {
+    h1, h3 {
+      font-family: 'Roboto Condensed';
+      text-transform: uppercase;
+      color: #055699;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    i {
+      color: #00A80C;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+  h2 {
+    color: #00A80C;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+  }
+  .other-info, .detail-info, .owner-info {
+    margin-top: 20px;
+  }
+  label {
+    font-weight: normal;
+    padding-top: 5px;
+  }
+  #title-suggestion-container {
+    a {
+      color: #f00;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    .btn-link {
+      padding-left: 0;
+    }
+  }
+  #form-create, #form-update {
+    .row {
+      margin-bottom: 10px;
+    }
+  }
+  .status {
+    label {
+      margin-right: 20px;
+    }
+  }
+  .house-id {
+    label {
+      font-size: 18px;
+      font-weight: bold;
+      color: #00A80C;
+    }
+  }
+  @media screen and (max-width:767px) {
+    .create-title {
+      h1, h3 {
+        font-size: 16px;
+      }
+    }
+    .street, .toilets, .facade, .frontline {
+      margin-top: 10px;
+    }
+  }
+  .btn-post {
+    margin-top: 30px;
+  }
+  .btn-cancel {
+    margin-left: 30px;
+  }
+  @media screen and (min-width:768px) and (max-width:1023px) {
+    .left-panel {
+      padding-right: 5px;
+      padding-left: 0;
+    }
+    .right-panel {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .create-title {
+      h3 {
+        font-size: 14px;
+        padding-top: 4px;
+      }
+    }
+  }
+}
+
+/* Start result panel */
+@media screen and (max-width:767px) {
+  .result-panel {
+    padding: 0 5px;
+  }
+}
+@media screen and (min-width:768px) {
+  .result-panel {
+    padding: 0 10px 0 0;
+  }
+}
+.result-panel {
+  .panel-heading {
+    background-color: #fff;
+  }
+  h1 {
+    color: #055699;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+  }
+  .result-count {
+    color: #00A80C;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .pagination {
+    margin: 0;
+  }
+  .panel-body {
+    padding: 5px 5px;
+  }
+  .list-item {
+    border-bottom: 1px solid #00A80C;
+    padding: 5px 0;
+  }
+  .houses-list {
+    border-top: 1px solid #00A80C;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00A80C;
+  }
+  .price-label {
+    color: #055699;
+    font-weight: bold;
+  }
+  .price {
+    color: #f00;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 14px;
+    margin: 2px;
+  }
+  .h2-info {
+    color: #00A80C;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  #sort {
+    width: 150px;
+  }
+  .img-responsive {
+    width: 100%;
+  }
+  @media screen and (max-width:1023px) {
+    #sort {
+      margin-bottom: 5px;
+    }
+  }
+  .info {
+    font-weight: bold;
+  }
+}
+/* End result panel */
